@@ -65,19 +65,11 @@
     s = s.split("");
     var stack = [];
 
-    for(var item of s){
-        if(item === "(" || item === "{" || item === "["){
-            stack.push(item);
-        } else {
-            var top = stack[stack.length - 1];
-            if(item === ")" && top ==="(" || item === "]" && top === "[" || item === "}" && top === "{"){
-                stack.pop();
-            } else {
-                return false;
-            }
-        }
+    for(let i = 0; s.length; i++){
+        const current = s[i];
+        
     }
-    return stack.length === 0;
+    return s;
 };
 // @lc code=end
 

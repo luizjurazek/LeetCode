@@ -70,7 +70,8 @@
  */
 var plusOne = function(digits) {
     let myArray = digits;
-    let myArrayReturn = [];
+    let myArrayReturn = [];  
+    
 
     arrayToNumber = BigInt(myArray.join(''));
     arrayToNumber += BigInt(1); 
