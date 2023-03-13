@@ -66,7 +66,7 @@
 // @lc code=start
 /**
  * @param {number[]} digits
- * @return {number[]}
+ * @return {number[]} 
  */
 var plusOne = function(digits) {
     let myArray = digits;
